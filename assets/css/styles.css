@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 10%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 18px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 400;
+}
+
+.header-primary-content {
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-second-content {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+  flex: 50%;
+}
+
+.primary-color {
+  color: hsl(300, 43%, 22%);
+}
+
+.secondary-color {
+  color: hsl(303, 10%, 53%);
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  height: 70px;
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+.tag1 {
+  margin-right: 100px;
+}
+
+.tag2 {
+  margin-right: 50px;
+}
+
+.tag-content-two {
+  margin-left: 30px;
+}
+
+.tag-content-two h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.tag img {
+  width: 15%;
+  height: 15%;
+}
+
+.clients {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-card {
+  border-radius: 10px;
+  width: 30%;
+  height: 75%;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.client-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.client-card-content-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.client-card-content-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.client-card-content-header-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.client-card-content-header-info h2 {
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+.client-card-content-header-info h3 {
+  font-size: 18px;
+  color: hsl(333, 80%, 67%);
+  margin: 0;
+}
+
+.client-card-content p {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  margin-top: 10%;
+  text-align: justify;
+}
+
+.card2 {
+  margin-top: 2.5%;
+}
+
+.card3 {
+  margin-top: 5%;
+}
+
+
+
+
